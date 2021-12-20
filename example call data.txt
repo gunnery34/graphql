@@ -1,0 +1,7 @@
+http://localhost:8080/graphql/graphql.php?query={productCategories{id,slug,name,products(limit:5){id,name,slug}}}
+
+http://localhost:8080/graphql/graphql.php?query={products(limit:10){id,slug,name,weight,price}}
+
+http://localhost:8080/graphql/graphql.php?query={product(id:1){id,name,price}}
+
+http://localhost:8080/graphql/graphql.php?query={user(id:6){id,name,email}}
